@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="index.css">
+  <title>Products</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+</head>
+
+<body class="body">
+  <div class="container">
+    <div class="row">
+      <div class="mt-2">
+        <h1 class="h1">Products</h1>
+      </div>
+      <div id="inputs" class="mt-5">
+        <div class="input-group mb-3">
+          <input id="searchInput" type="text" class="form-control" placeholder="Search Product"
+            aria-label="Search Product" aria-describedby="button-addon2">
+          <button class="btn btn-primary" type="button" id="searchButton">Search</button>
+          <button id="showAllProducts" class="btn btn-success">Show all products</button>
+        </div>
+      </div>
+      <div class="contents" id="content"></div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+  <script src="./ui-components/image.js"></script>
+  <script src="./index.js"></script>
+</body>
+
+</html>
